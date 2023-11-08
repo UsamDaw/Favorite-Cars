@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Audiowide&family=Cabin+Sketch&family=Electrolize&family=Kodchasan:wght@200;300&family=Tourney:wght@800&display=swap');
+
+.container img {
+    max-width: 400px;
+    height: 700px;
+    object-fit: cover;
+    object-position: 55%;
+    margin: 97px;
+    position: absolute;
+}
+
+#img1 img {
+    display: flex;
+    justify-content: start;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+#img1 img:hover {
+    transform: scale(1.1);
+}
+
+#img2 img {
+    display: flex;
+    justify-content: center;
+    transition: 0.6s ease;
+    cursor: pointer;
+    right: 609px;
+}
+
+#img2 img:hover {
+    transform: scale(1.1);
+}
+
+#img3 img {
+    display: flex;
+    justify-content: end;
+    transition: 0.7s ease;
+    cursor: pointer;
+    right: 1px;
+}
+
+#img3 img:hover {
+    transform: scale(1.1);
+}
+
+#img1 p {
+    left: 253px;
+    bottom: 720px;
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Tourney';
+    color: rgb(224, 191, 2);
+}
+
+#img2 p {
+    right: 47.5%;
+    bottom: 720px;
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Tourney';
+    color: rgb(128, 126, 126);
+}
+
+#img3 p {
+    right: 14.3%;
+    bottom: 720px;
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Tourney';
+    color:peru;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-family: 'Tourney';
+}
